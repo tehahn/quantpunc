@@ -1,0 +1,24 @@
+title: QuantPunc
+description: >-
+  A Napari plugin for puncta analysis and quantification in 2D microscopy images.
+baseurl: "/quantpunc"
+url: "https://tehahn.github.io"
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+
+color_scheme: dark
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
